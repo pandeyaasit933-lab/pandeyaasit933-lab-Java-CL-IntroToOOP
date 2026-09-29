@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/BirdTest.java",
+      "testCases": [
+        {
+          "methodName": "birdTest1",
+          "label": "Verify young birds (age < 3) say 'Tweet'",
+          "description": "Sets ageMonths to 0 and checks that sound() returns \"Tweet\"."
+        },
+        {
+          "methodName": "birdTest2",
+          "label": "Verify older birds (age ≥ 3) say 'Chirp'",
+          "description": "Sets ageMonths to 4 and checks that sound() returns \"Chirp\"."
+        },
+        {
+          "methodName": "birdTest3",
+          "label": "Verify birds at age 3 say 'Chirp'",
+          "description": "Sets ageMonths to 3 and checks that sound() returns \"Chirp\"."
+        }
+      ]
+    }
+  ]
+}
